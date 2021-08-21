@@ -18,3 +18,32 @@ describe('Positive Test - get list', () => {
     er.expectSnapshot(response, data.snapshotEx);
   });
 });
+
+const negative = [
+  {
+    desc: 'empty string',
+    value: '',
+  },
+  {
+    desc: null,
+    value :'null'
+  },
+  {
+    desc: '0',
+    value :0
+  },
+  {
+    desc: 'String',
+    value :'2'
+  }
+];
+describe('Negative test Test - Get List User', () => {
+  negative.forEach(element => {
+    test(`As user, i cannot get list user ${element.desc}`, async () => {
+      response = await epEvent.endpointGetUsers(element.value);
+      console.log(JSON.stringify(response.body));
+      er.expectStatus(response, status.statusBadRequest);
+      er.expectSchema(response, schema.default);
+    });
+  }); 
+});
