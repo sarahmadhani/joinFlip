@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Positive Test - Approval Organizer @VN-4994 @agrannis7311: As a admin, I can approval organizer) 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "avatar": "https://reqres.in/img/faces/7-image.jpg",
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "id": 7,
+      "last_name": "Lawson",
+    },
+    Object {
+      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "email": "lindsay.ferguson@reqres.in",
+      "first_name": "Lindsay",
+      "id": 8,
+      "last_name": "Ferguson",
+    },
+    Object {
+      "avatar": "https://reqres.in/img/faces/9-image.jpg",
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "id": 9,
+      "last_name": "Funke",
+    },
+    Object {
+      "avatar": "https://reqres.in/img/faces/10-image.jpg",
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "id": 10,
+      "last_name": "Fields",
+    },
+    Object {
+      "avatar": "https://reqres.in/img/faces/11-image.jpg",
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "id": 11,
+      "last_name": "Edwards",
+    },
+    Object {
+      "avatar": "https://reqres.in/img/faces/12-image.jpg",
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "id": 12,
+      "last_name": "Howell",
+    },
+  ],
+  "page": 2,
+  "per_page": 6,
+  "support": Object {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading",
+  },
+  "total": 12,
+  "total_pages": 2,
+}
+`;
