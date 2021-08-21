@@ -1,0 +1,44 @@
+{
+  "name": "at-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./__tests__/reqres/createUser.js --config ./jest.config.js --json --outputFile=jest_html_reporters.json --forceExit --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://sarahmadhani@bitbucket.org/sarahmadhani/testapiflip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.6.3",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "jest-expect-message": "^1.0.2",
+    "jest-html-reporters": "^2.1.0",
+    "jest-json-schema": "^2.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-sorted": "^0.2.0",
+    "influx": "^5.6.3",
+    "jest-junit": "^12.0.0",   
+    "shelljs": "^0.8.4",
+    "sort-array": "^4.1.2",
+    "sort-objects-array": "^1.7.1",
+    "supertest": "^6.0.1",
+    "write-json-file": "^4.3.0"
+  }
+}
